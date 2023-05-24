@@ -24,6 +24,39 @@ Installation
 
   pip install elasticsearch-dsl
 
+Git setup
+------------
+
+Remotes:
+::
+  git clone git@github.com:ecommercedb/elasticsearch-dsl-py.git
+  git remote add upstream git@github.com:elastic/elasticsearch-dsl-py.git
+  git remote set-url --push upstream DISABLE
+
+
+Merges:
+::
+  git checkout main
+  git fetch upstream
+  git rebase upstream/main
+
+Git setup
+------------
+
+Remotes:
+::
+  git clone git@github.com:ecommercedb/elasticsearch-dsl-py.git
+  git remote add upstream git@github.com:elastic/elasticsearch-dsl-py.git
+  git remote set-url --push upstream DISABLE
+
+
+Merges:
+::
+  git checkout main
+  git fetch upstream
+  git rebase upstream/main
+
+
 Examples
 --------
 
