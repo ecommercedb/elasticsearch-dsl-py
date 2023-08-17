@@ -31,7 +31,7 @@ f.close()
 install_requires = [
     "six",
     "python-dateutil",
-    "elasticsearch==8.5.2",
+    "elasticsearch==8.9.0",
     # ipaddress is included in stdlib since python 3.3
     'ipaddress; python_version<"3.3"',
 ]
